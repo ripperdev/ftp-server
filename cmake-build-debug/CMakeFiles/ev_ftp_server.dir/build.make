@@ -43,10 +43,10 @@ RM = /opt/JetBrains/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E rem
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ripper/Code/Clion/FTP_Server
+CMAKE_SOURCE_DIR = /home/ripper/Code/Clion/ftp-server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ripper/Code/Clion/FTP_Server/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ripper/Code/Clion/ftp-server/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ev_ftp_server.dir/depend.make
@@ -59,146 +59,146 @@ include CMakeFiles/ev_ftp_server.dir/flags.make
 
 CMakeFiles/ev_ftp_server.dir/main.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ev_ftp_server.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/main.cpp.o -c /home/ripper/Code/Clion/FTP_Server/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ev_ftp_server.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/main.cpp.o -c /home/ripper/Code/Clion/ftp-server/main.cpp
 
 CMakeFiles/ev_ftp_server.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/main.cpp > CMakeFiles/ev_ftp_server.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/main.cpp > CMakeFiles/ev_ftp_server.dir/main.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/main.cpp -o CMakeFiles/ev_ftp_server.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/main.cpp -o CMakeFiles/ev_ftp_server.dir/main.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XThread.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XThread.cpp.o: ../XThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ev_ftp_server.dir/XThread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XThread.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XThread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ev_ftp_server.dir/XThread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XThread.cpp.o -c /home/ripper/Code/Clion/ftp-server/XThread.cpp
 
 CMakeFiles/ev_ftp_server.dir/XThread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XThread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XThread.cpp > CMakeFiles/ev_ftp_server.dir/XThread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XThread.cpp > CMakeFiles/ev_ftp_server.dir/XThread.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XThread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XThread.cpp -o CMakeFiles/ev_ftp_server.dir/XThread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XThread.cpp -o CMakeFiles/ev_ftp_server.dir/XThread.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.o: ../XThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.o -c /home/ripper/Code/Clion/ftp-server/XThreadPool.cpp
 
 CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XThreadPool.cpp > CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XThreadPool.cpp > CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XThreadPool.cpp -o CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XThreadPool.cpp -o CMakeFiles/ev_ftp_server.dir/XThreadPool.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.o: ../XFTPServerCMD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XFTPServerCMD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.o -c /home/ripper/Code/Clion/ftp-server/XFTPServerCMD.cpp
 
 CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XFTPServerCMD.cpp > CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XFTPServerCMD.cpp > CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XFTPServerCMD.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XFTPServerCMD.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPServerCMD.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.o: ../XFTPTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XFTPTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.o -c /home/ripper/Code/Clion/ftp-server/XFTPTask.cpp
 
 CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XFTPTask.cpp > CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XFTPTask.cpp > CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XFTPTask.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XFTPTask.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPTask.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.o: ../XFTPFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XFTPFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.o -c /home/ripper/Code/Clion/ftp-server/XFTPFactory.cpp
 
 CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XFTPFactory.cpp > CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XFTPFactory.cpp > CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XFTPFactory.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XFTPFactory.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPFactory.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.o: ../XFTPUSER.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XFTPUSER.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.o -c /home/ripper/Code/Clion/ftp-server/XFTPUSER.cpp
 
 CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XFTPUSER.cpp > CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XFTPUSER.cpp > CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XFTPUSER.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XFTPUSER.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPUSER.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.o: ../XFTPLIST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XFTPLIST.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.o -c /home/ripper/Code/Clion/ftp-server/XFTPLIST.cpp
 
 CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XFTPLIST.cpp > CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XFTPLIST.cpp > CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XFTPLIST.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XFTPLIST.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPLIST.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.o: ../XFTPPORT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XFTPPORT.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.o -c /home/ripper/Code/Clion/ftp-server/XFTPPORT.cpp
 
 CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XFTPPORT.cpp > CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XFTPPORT.cpp > CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XFTPPORT.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XFTPPORT.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPPORT.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.o: ../XFTPRETR.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XFTPRETR.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.o -c /home/ripper/Code/Clion/ftp-server/XFTPRETR.cpp
 
 CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XFTPRETR.cpp > CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XFTPRETR.cpp > CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XFTPRETR.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XFTPRETR.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.s
 
 CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.o: CMakeFiles/ev_ftp_server.dir/flags.make
 CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.o: ../XFTPSTOR.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.o -c /home/ripper/Code/Clion/FTP_Server/XFTPSTOR.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.o -c /home/ripper/Code/Clion/ftp-server/XFTPSTOR.cpp
 
 CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/FTP_Server/XFTPSTOR.cpp > CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ripper/Code/Clion/ftp-server/XFTPSTOR.cpp > CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.i
 
 CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/FTP_Server/XFTPSTOR.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ripper/Code/Clion/ftp-server/XFTPSTOR.cpp -o CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.s
 
 # Object files for target ev_ftp_server
 ev_ftp_server_OBJECTS = \
@@ -230,7 +230,7 @@ ev_ftp_server: CMakeFiles/ev_ftp_server.dir/XFTPRETR.cpp.o
 ev_ftp_server: CMakeFiles/ev_ftp_server.dir/XFTPSTOR.cpp.o
 ev_ftp_server: CMakeFiles/ev_ftp_server.dir/build.make
 ev_ftp_server: CMakeFiles/ev_ftp_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ev_ftp_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ev_ftp_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ev_ftp_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +243,6 @@ CMakeFiles/ev_ftp_server.dir/clean:
 .PHONY : CMakeFiles/ev_ftp_server.dir/clean
 
 CMakeFiles/ev_ftp_server.dir/depend:
-	cd /home/ripper/Code/Clion/FTP_Server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ripper/Code/Clion/FTP_Server /home/ripper/Code/Clion/FTP_Server /home/ripper/Code/Clion/FTP_Server/cmake-build-debug /home/ripper/Code/Clion/FTP_Server/cmake-build-debug /home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles/ev_ftp_server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ripper/Code/Clion/ftp-server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ripper/Code/Clion/ftp-server /home/ripper/Code/Clion/ftp-server /home/ripper/Code/Clion/ftp-server/cmake-build-debug /home/ripper/Code/Clion/ftp-server/cmake-build-debug /home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles/ev_ftp_server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ev_ftp_server.dir/depend
 

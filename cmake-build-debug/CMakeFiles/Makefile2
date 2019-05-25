@@ -59,10 +59,10 @@ RM = /opt/JetBrains/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E rem
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ripper/Code/Clion/FTP_Server
+CMAKE_SOURCE_DIR = /home/ripper/Code/Clion/ftp-server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ripper/Code/Clion/FTP_Server/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ripper/Code/Clion/ftp-server/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/ev_ftp_server.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/ripper/Code/Clion/FTP_Server/cmake-build-debug
 CMakeFiles/ev_ftp_server.dir/all:
 	$(MAKE) -f CMakeFiles/ev_ftp_server.dir/build.make CMakeFiles/ev_ftp_server.dir/depend
 	$(MAKE) -f CMakeFiles/ev_ftp_server.dir/build.make CMakeFiles/ev_ftp_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target ev_ftp_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target ev_ftp_server"
 .PHONY : CMakeFiles/ev_ftp_server.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/ev_ftp_server.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ev_ftp_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ev_ftp_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripper/Code/Clion/FTP_Server/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ripper/Code/Clion/ftp-server/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ev_ftp_server.dir/rule
 
 # Convenience name for target.
