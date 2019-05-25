@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ev_ftp_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ripper/Code/Clion/FTP_Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ripper/Code/Clion/FTP_Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ev_ftp_server">
+				<Option output="/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/ev_ftp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ripper/Code/Clion/FTP_Server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 ev_ftp_server"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ev_ftp_server/fast">
+				<Option output="/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/ev_ftp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ripper/Code/Clion/FTP_Server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 ev_ftp_server/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ripper/Code/Clion/FTP_Server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ripper/Code/Clion/FTP_Server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPFactory.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPFactory.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPLIST.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPLIST.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPPORT.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPPORT.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPRETR.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPRETR.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPSTOR.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPSTOR.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPServerCMD.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPServerCMD.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPTask.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPTask.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPUSER.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XFTPUSER.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XTask.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XThread.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XThread.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XThreadPool.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/XThreadPool.h">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/main.cpp">
+			<Option target="ev_ftp_server"/>
+		</Unit>
+		<Unit filename="/home/ripper/Code/Clion/FTP_Server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
