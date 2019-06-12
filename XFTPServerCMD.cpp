@@ -64,7 +64,6 @@ void XFTPServerCMD::Read(bufferevent *bev) {
 }
 
 void XFTPServerCMD::Event(bufferevent *bev, short what) {
-    ///如果对方网络断掉，或者机器死机，有可用收不到BEV_EVENT_EOF信息
     if (what & (BEV_EVENT_EOF | BEV_EVENT_ERROR | BEV_EVENT_TIMEOUT)) {
         std::cout << "BEV_EVENT_EOF | BEV_EVENT_ERROR | BEV_EVENT_TIMEOUT" << std::endl;
         delete this;
@@ -82,7 +81,7 @@ void XFTPServerCMD::Reg(const std::string &cmd, XFTPTask *call) {
     }
     ///已经注册的不覆盖，提示错误
     if (calls.find(cmd) != calls.end()) {
-        std::cout << cmd << "is already register " << std::endl;
+        std::cout << cmd << " is already register " << std::endl;
         return;
     }
     calls[cmd] = call;

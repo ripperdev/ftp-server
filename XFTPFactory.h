@@ -17,7 +17,7 @@ class XFTPFactory {
 public:
     static XFTPFactory *GetInstance();
 
-    XTask *CreateTask();
+    static XTask *CreateTask();
 private:
     XFTPFactory() = default;
 };
